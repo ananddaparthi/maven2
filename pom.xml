@@ -27,12 +27,12 @@
 	<build>
 		<plugins>
 			<plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-war-plugin</artifactId>
-                    <configuration>
-                        <webXml>/path/to/webXml1</webXml>
-                    </configuration>
-                </plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <configuration>
+                <webXml>${webXmlPath}</webXml>
+            </configuration>
+        </plugin>
 
 		
 			
