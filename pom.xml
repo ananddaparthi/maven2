@@ -27,21 +27,15 @@
 	<build>
 		<plugins>
 			<plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-war-plugin</artifactId>
-		<version>2.6</version>
-		<configuration>
-			<failOnMissingWebXml>false</failOnMissingWebXml>
-		</configuration>
-	</plugin>
-			<plugin>
-		               <groupId>org.apache.maven.plugins</groupId>
-		               <artifactId>maven-war-plugin</artifactId>
-		               <version>2.6</version>
-		              <configuration>
-			                  <failOnMissingWebXml>false</failOnMissingWebXml>
-		              </configuration>
-	                </plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-war-plugin</artifactId>
+                    <configuration>
+                        <webXml>/path/to/webXml1</webXml>
+                    </configuration>
+                </plugin>
+
+		
+			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-shade-plugin</artifactId>
