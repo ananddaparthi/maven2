@@ -92,6 +92,8 @@
         <configuration>
           <skipTests>true</skipTests>
         </configuration>
+
+
       </plugin>
 -->
 		</plugins>
